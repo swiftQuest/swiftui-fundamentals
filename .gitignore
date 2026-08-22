@@ -60,3 +60,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+Playgrounds/Starter/.DS_Store
+Playgrounds/.DS_Store
+Playgrounds/.DS_Store
