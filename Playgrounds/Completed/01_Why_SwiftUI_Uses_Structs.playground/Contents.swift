@@ -22,7 +22,18 @@ import Foundation
 
 // TODO: Write your code for Section 1 below:
 
+struct Person{
+    var name: String
+    var role: String
+    
+    func greet(){
+       print("Hello, I am \(name). Working as a \(role)")
+    }
+}
+let alex = Person(name: "Alex", role: "iOS developer.")
 
+
+//alex.greet()
 
 
 // ========================================================================
@@ -42,7 +53,22 @@ import Foundation
 
 // TODO: Write your code for Section 2 below:
 
+class PersonClass{
+    var name: String
+    var role: String
+    
+    init(name: String, role: String) {
+        self.name = name
+        self.role = role
+    }
+    
+    func greet(){
+        print("Hi, I am \(name), working as an \(role)")
+    }
+}
 
+let max = PersonClass(name: "Max", role: "iOS Developer")
+//max.greet()
 
 
 // ========================================================================
@@ -66,6 +92,21 @@ import Foundation
 // TODO: Write your code for Section 3 below:
 
 
+var structA = Person(name: "Alex", role: "iOS Dev")
+var structB = structA
+
+structB.name = "Sam"
+
+print("structA name: \(structA.name)")
+print("structB name: \(structB.name)")
+
+var classA = PersonClass(name: "Alex", role: "iOS Developer")
+var classB = classA
+
+classB.name = "Sam"
+
+print("classA name: \(classA.name)")
+print("classB name: \(classB.name)")
 
 
 // ========================================================================
