@@ -60,8 +60,10 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
-Playgrounds/Starter/.DS_Store
-Playgrounds/.DS_Store
-Playgrounds/.DS_Store
-Playgrounds/Completed/.DS_Store
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+Playgrounds/.DS_Store
+Playgrounds/.DS_Store
